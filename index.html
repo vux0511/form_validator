@@ -15,7 +15,7 @@
 
                 <div class="spacer"></div>
 
-                <div class="form-group">
+                <div class="form-group" id="form-group">
                     <label for="fullname" class="form-label">Tên đầy đủ</label>
                     <input
                         id="fullname"
@@ -24,10 +24,10 @@
                         placeholder="VD: Hoàng Văn Vũ"
                         class="form-control"
                     />
-                    <span class="form-message"></span>
+                    <span class="form-message" id="form-message"></span>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" id="form-group-email">
                     <label for="email" class="form-label">Email</label>
                     <input
                         id="email"
@@ -36,10 +36,10 @@
                         placeholder="VD: email@domain.com"
                         class="form-control"
                     />
-                    <span class="form-message"></span>
+                    <span class="form-message" id="form-message-email"></span>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" id="form-group-password">
                     <label for="password" class="form-label">Mật khẩu</label>
                     <input
                         id="password"
@@ -48,10 +48,10 @@
                         placeholder="Nhập mật khẩu"
                         class="form-control"
                     />
-                    <span class="form-message"></span>
+                    <span class="form-message" id="form-message-password"></span>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" id="form-group-password-confirmation" >
                     <label for="password_confirmation" class="form-label"
                         >Nhập lại mật khẩu</label
                     >
@@ -62,7 +62,7 @@
                         type="password"
                         class="form-control"
                     />
-                    <span class="form-message"></span>
+                    <span class="form-message" id="form-message-password-confirmation"></span>
                 </div>
 
                 <button class="form-submit">Đăng ký</button>
@@ -71,7 +71,7 @@
     </body>
     <script src="main.js"></script>
 
-    <script>
+    <!-- <script>
         Validator({
             form: "form-1",
             rules: [
@@ -79,5 +79,5 @@
                 Validator.isEmail("#email"),
             ],
         });
-    </script>
+    </script> -->
 </html>
